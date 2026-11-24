@@ -1,0 +1,25 @@
+
+# Python virtual environment
+python_analysis/.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+python_analysis/notebooks/.ipynb_checkpoints/
+
+# Raw source datasets (retain locally)
+database/
+python_analysis/data/
+
+# Large generated database
+python_analysis/outputs/*.db
+
+# Large generated intermediate datasets
+python_analysis/outputs/dashboard_data/engagement_analysis.csv
+
+# System files
+.DS_Store
+Thumbs.db
